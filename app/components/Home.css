@@ -1,0 +1,72 @@
+.globalContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background-image: url('../../resources/bgs/01.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  filter: blur(42px);
+}
+
+.contentContainer {
+  width: 1080px;
+  height: 800px;
+  z-index: 99;
+  background-image: linear-gradient(0, rgba(0,0,0, .1), rgba(0,0,0, .5));
+}
+
+/* Title Area */
+
+.titleBar {
+  padding: 20px;
+  color: #ccc;
+}
+
+.titleBar span {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/* Editor Ring */
+.editorContainer {
+  display: flex;
+}
+
+.markEditor {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.markEditor button {
+  color: white;
+}
+
+.editorRingTitle {
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.editorRing {
+  margin-right: 20px;
+}
+
+/* Graph Area */
+.graphContainer {
+  margin-top: 60px;
+}
